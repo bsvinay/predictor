@@ -3,18 +3,18 @@ import numpy as np
 from typing import Dict, List, Tuple, Optional
 from datetime import datetime, timedelta
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, filedialog
 import threading
 import json
 
 # Import your existing classes
-from advanced_opt_analyzer import AdvancedOptionsAnalyzer
-from enhanced_vega_analysis_tab import EnhancedVegaAnalysisTab
+from analyzer.advanced_opt_analyzer import AdvancedOptionsAnalyzer
+from analyzer.enhanced_vega_analysis_tab import EnhancedVegaAnalysisTab
 
 # Import new components (assuming they're in separate files)
-# from enhanced_range_predictor import EnhancedRangePredictor
-# from key_level_detector import KeyLevelDetector  
-# from predictive_feedback_system import PredictiveModel
+from analyzer.enhanced_range_engine import EnhancedRangePredictor
+from analyzer.key_level_detector import KeyLevelDetector  
+from analyzer.predictive_feedback_system import PredictiveModel
 
 class ComprehensiveOptionsAnalyzer(AdvancedOptionsAnalyzer):
     """
